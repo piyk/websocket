@@ -1,0 +1,41 @@
+body {
+   font-family: "Courier New", sans-serif;
+   text-align: center;
+}
+.buttons {
+   font-size: 5em;
+   display: flex;
+   justify-content: center;
+}
+.button, .value {
+   line-height: 1;
+   padding: 1rem;
+   margin: 1rem;
+   border: medium solid;
+   min-height: 1em;
+   min-width: 1em;
+}
+.value1, .value2 {
+   line-height: 1;
+   padding: 1rem;
+   margin: 1rem;
+/*   border: medium solid;*/
+   min-height: 1em;
+   min-width: 1em;
+}
+.button {
+   cursor: pointer;
+   user-select: none;
+}
+.minus {
+   color: green;
+}
+.plus {
+   color: green;
+}
+.value {
+   min-width: 2em;
+}
+.state {
+   font-size: 2em;
+}
